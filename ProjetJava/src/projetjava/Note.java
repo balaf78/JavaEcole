@@ -24,7 +24,8 @@ public class Note {
     {
         try{
             Class.forName("com.mysql.jdbc.Driver");
-            Connection tmp = DriverManager.getConnection("jdbc:mysql://localhost:3306/etudiant","root","");
+            System.out.println("1");
+            Connection tmp = DriverManager.getConnection("jdbc:mysql://localhost:3306/ecole","root","");
             Statement stm = tmp.createStatement();
             Scanner sc = new Scanner(System.in);
             System.out.println("Entrer la note à ajouter");

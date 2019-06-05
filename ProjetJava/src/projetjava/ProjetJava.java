@@ -28,10 +28,12 @@ public class ProjetJava {
         {   
             
             Note note = new Note();
+            //Swing.Graphique();
+            //note.ajouterNote();
+            Eleve eleve = new Eleve();
+            eleve.affiche();
             
-            Enseignant prof = new Enseignant();
             
-            note.ajouterNote();
                     
        
         }
