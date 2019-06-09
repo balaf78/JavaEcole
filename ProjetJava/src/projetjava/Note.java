@@ -97,7 +97,7 @@ public class Note {
         
     }
         
-        public String getQuery() {
+    public String getQuery() {
         return query;
     }
 
