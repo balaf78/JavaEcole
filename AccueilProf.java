@@ -25,7 +25,6 @@ public class AccueilProf extends JFrame {
     private JPanel container= new JPanel();
     private JLabel label1 = new JLabel("Salut Omer-Faruk Kiziltoprak");
     private JLabel label2 = new JLabel("Discipline: Maths ");
-    
     private JLabel label3 = new JLabel("Non classe:");
     private JComboBox combo = new JComboBox();
     private JButton b1 =new JButton("Valider");
